@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43D9BFD2CFE104000416C7F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A43D9BFC2CFE104000416C7F /* FirebaseAnalytics */; };
+		A43D9BFF2CFE104000416C7F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A43D9BFE2CFE104000416C7F /* FirebaseAnalyticsOnDeviceConversion */; };
+		A43D9C012CFE104000416C7F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A43D9C002CFE104000416C7F /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A43D9C032CFE104000416C7F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = A43D9C022CFE104000416C7F /* FirebaseAppCheck */; };
+		A43D9C052CFE104000416C7F /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A43D9C042CFE104000416C7F /* FirebaseAppDistribution-Beta */; };
+		A4C2FB612CFE30CA0063A437 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A4C2FB602CFE30CA0063A437 /* GoogleSignIn */; };
+		A4C2FB632CFE30CA0063A437 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A4C2FB622CFE30CA0063A437 /* GoogleSignInSwift */; };
+		A4C2FB652CFE334B0063A437 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A4C2FB642CFE334B0063A437 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43D9BDF2CFE091A00416C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43D9BC42CFE091500416C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43D9BCB2CFE091500416C7F;
+			remoteInfo = NOAH;
+		};
+		A43D9BE92CFE091A00416C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43D9BC42CFE091500416C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43D9BCB2CFE091500416C7F;
+			remoteInfo = NOAH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A43D9BCC2CFE091500416C7F /* NOAH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOAH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43D9BDE2CFE091A00416C7F /* NOAHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOAHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43D9BE82CFE091A00416C7F /* NOAHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NOAHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A43D9C0C2CFE134C00416C7F /* Exceptions for "NOAH" folder in "NOAHTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = A43D9BDD2CFE091A00416C7F /* NOAHTests */;
+		};
+		A43D9C0D2CFE134C00416C7F /* Exceptions for "NOAH" folder in "NOAHUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = A43D9BE72CFE091A00416C7F /* NOAHUITests */;
+		};
+		A4A994A92CFE266E003F25A8 /* Exceptions for "NOAH" folder in "NOAH" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A43D9BCB2CFE091500416C7F /* NOAH */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A43D9BCE2CFE091500416C7F /* NOAH */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A4A994A92CFE266E003F25A8 /* Exceptions for "NOAH" folder in "NOAH" target */,
+				A43D9C0C2CFE134C00416C7F /* Exceptions for "NOAH" folder in "NOAHTests" target */,
+				A43D9C0D2CFE134C00416C7F /* Exceptions for "NOAH" folder in "NOAHUITests" target */,
+			);
+			path = NOAH;
+			sourceTree = "<group>";
+		};
+		A43D9BE12CFE091A00416C7F /* NOAHTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NOAHTests;
+			sourceTree = "<group>";
+		};
+		A43D9BEB2CFE091A00416C7F /* NOAHUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NOAHUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43D9BC92CFE091500416C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43D9C032CFE104000416C7F /* FirebaseAppCheck in Frameworks */,
+				A43D9BFD2CFE104000416C7F /* FirebaseAnalytics in Frameworks */,
+				A4C2FB632CFE30CA0063A437 /* GoogleSignInSwift in Frameworks */,
+				A43D9C052CFE104000416C7F /* FirebaseAppDistribution-Beta in Frameworks */,
+				A43D9C012CFE104000416C7F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				A43D9BFF2CFE104000416C7F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				A4C2FB612CFE30CA0063A437 /* GoogleSignIn in Frameworks */,
+				A4C2FB652CFE334B0063A437 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43D9BDB2CFE091A00416C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43D9BE52CFE091A00416C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43D9BC32CFE091500416C7F = {
+			isa = PBXGroup;
+			children = (
+				A43D9BCE2CFE091500416C7F /* NOAH */,
+				A43D9BE12CFE091A00416C7F /* NOAHTests */,
+				A43D9BEB2CFE091A00416C7F /* NOAHUITests */,
+				A43D9BCD2CFE091500416C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A43D9BCD2CFE091500416C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43D9BCC2CFE091500416C7F /* NOAH.app */,
+				A43D9BDE2CFE091A00416C7F /* NOAHTests.xctest */,
+				A43D9BE82CFE091A00416C7F /* NOAHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43D9BCB2CFE091500416C7F /* NOAH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43D9BF22CFE091A00416C7F /* Build configuration list for PBXNativeTarget "NOAH" */;
+			buildPhases = (
+				A43D9BC82CFE091500416C7F /* Sources */,
+				A43D9BC92CFE091500416C7F /* Frameworks */,
+				A43D9BCA2CFE091500416C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A43D9BCE2CFE091500416C7F /* NOAH */,
+			);
+			name = NOAH;
+			packageProductDependencies = (
+				A43D9BFC2CFE104000416C7F /* FirebaseAnalytics */,
+				A43D9BFE2CFE104000416C7F /* FirebaseAnalyticsOnDeviceConversion */,
+				A43D9C002CFE104000416C7F /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A43D9C022CFE104000416C7F /* FirebaseAppCheck */,
+				A43D9C042CFE104000416C7F /* FirebaseAppDistribution-Beta */,
+				A4C2FB602CFE30CA0063A437 /* GoogleSignIn */,
+				A4C2FB622CFE30CA0063A437 /* GoogleSignInSwift */,
+				A4C2FB642CFE334B0063A437 /* FirebaseAuth */,
+			);
+			productName = NOAH;
+			productReference = A43D9BCC2CFE091500416C7F /* NOAH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43D9BDD2CFE091A00416C7F /* NOAHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43D9BF52CFE091A00416C7F /* Build configuration list for PBXNativeTarget "NOAHTests" */;
+			buildPhases = (
+				A43D9BDA2CFE091A00416C7F /* Sources */,
+				A43D9BDB2CFE091A00416C7F /* Frameworks */,
+				A43D9BDC2CFE091A00416C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43D9BE02CFE091A00416C7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A43D9BE12CFE091A00416C7F /* NOAHTests */,
+			);
+			name = NOAHTests;
+			packageProductDependencies = (
+			);
+			productName = NOAHTests;
+			productReference = A43D9BDE2CFE091A00416C7F /* NOAHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A43D9BE72CFE091A00416C7F /* NOAHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43D9BF82CFE091A00416C7F /* Build configuration list for PBXNativeTarget "NOAHUITests" */;
+			buildPhases = (
+				A43D9BE42CFE091A00416C7F /* Sources */,
+				A43D9BE52CFE091A00416C7F /* Frameworks */,
+				A43D9BE62CFE091A00416C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43D9BEA2CFE091A00416C7F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A43D9BEB2CFE091A00416C7F /* NOAHUITests */,
+			);
+			name = NOAHUITests;
+			packageProductDependencies = (
+			);
+			productName = NOAHUITests;
+			productReference = A43D9BE82CFE091A00416C7F /* NOAHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43D9BC42CFE091500416C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A43D9BCB2CFE091500416C7F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A43D9BDD2CFE091A00416C7F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A43D9BCB2CFE091500416C7F;
+					};
+					A43D9BE72CFE091A00416C7F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A43D9BCB2CFE091500416C7F;
+					};
+				};
+			};
+			buildConfigurationList = A43D9BC72CFE091500416C7F /* Build configuration list for PBXProject "NOAH" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43D9BC32CFE091500416C7F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A4C2FB5F2CFE30CA0063A437 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A43D9BCD2CFE091500416C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43D9BCB2CFE091500416C7F /* NOAH */,
+				A43D9BDD2CFE091A00416C7F /* NOAHTests */,
+				A43D9BE72CFE091A00416C7F /* NOAHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43D9BCA2CFE091500416C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43D9BDC2CFE091A00416C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43D9BE62CFE091A00416C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43D9BC82CFE091500416C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43D9BDA2CFE091A00416C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43D9BE42CFE091A00416C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43D9BE02CFE091A00416C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43D9BCB2CFE091500416C7F /* NOAH */;
+			targetProxy = A43D9BDF2CFE091A00416C7F /* PBXContainerItemProxy */;
+		};
+		A43D9BEA2CFE091A00416C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43D9BCB2CFE091500416C7F /* NOAH */;
+			targetProxy = A43D9BE92CFE091A00416C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A43D9BF02CFE091A00416C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A43D9BF12CFE091A00416C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A43D9BF32CFE091A00416C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NOAH/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N78Y47LGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NOAH/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A43D9BF42CFE091A00416C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NOAH/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N78Y47LGV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NOAH/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A43D9BF62CFE091A00416C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N78Y47LGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.NOAHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NOAH.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NOAH";
+			};
+			name = Debug;
+		};
+		A43D9BF72CFE091A00416C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N78Y47LGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.NOAHTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NOAH.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NOAH";
+			};
+			name = Release;
+		};
+		A43D9BF92CFE091A00416C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N78Y47LGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.NOAHUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NOAH;
+			};
+			name = Debug;
+		};
+		A43D9BFA2CFE091A00416C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N78Y47LGV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noah.NOAHUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NOAH;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43D9BC72CFE091500416C7F /* Build configuration list for PBXProject "NOAH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43D9BF02CFE091A00416C7F /* Debug */,
+				A43D9BF12CFE091A00416C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43D9BF22CFE091A00416C7F /* Build configuration list for PBXNativeTarget "NOAH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43D9BF32CFE091A00416C7F /* Debug */,
+				A43D9BF42CFE091A00416C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43D9BF52CFE091A00416C7F /* Build configuration list for PBXNativeTarget "NOAHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43D9BF62CFE091A00416C7F /* Debug */,
+				A43D9BF72CFE091A00416C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43D9BF82CFE091A00416C7F /* Build configuration list for PBXNativeTarget "NOAHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43D9BF92CFE091A00416C7F /* Debug */,
+				A43D9BFA2CFE091A00416C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+		A4C2FB5F2CFE30CA0063A437 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A43D9BFC2CFE104000416C7F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A43D9BFE2CFE104000416C7F /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		A43D9C002CFE104000416C7F /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		A43D9C022CFE104000416C7F /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		A43D9C042CFE104000416C7F /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		A4C2FB602CFE30CA0063A437 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4C2FB5F2CFE30CA0063A437 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A4C2FB622CFE30CA0063A437 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4C2FB5F2CFE30CA0063A437 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		A4C2FB642CFE334B0063A437 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43D9BFB2CFE104000416C7F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A43D9BC42CFE091500416C7F /* Project object */;
+}
